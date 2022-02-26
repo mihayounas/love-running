@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
  * {
     margin: 0;
@@ -113,12 +113,11 @@ margin-right : 30px
 
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
-
+   
 }
 
 #center-about{
@@ -140,4 +139,19 @@ hr{
     clear: both;
     margin-bottom: 50px;
 }
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
+.right-about-heading h2 {
+    text-align : right;
+
+}
+.right-about-heading p {
+    text-align : right;
+    
+}
